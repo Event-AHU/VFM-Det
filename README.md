@@ -1,7 +1,9 @@
 # VFM-Det 
 
 <div align="center">
+  
 <img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/firstIMG.jpg" width="600">
+  
 **Vehicle Detection using Pre-trained Large Vision-Language Foundation Models** 
 
 ------
