@@ -55,15 +55,11 @@
 ### :cupid: Acknowledgement 
 * Thanks for the *** library for a quickly implement.
 
-# :newspaper: Citation 
+### :newspaper: Citation 
 ```bibtex
 @article{,
 }
 ```
-
-
-
-### Citation 
 
 
 
