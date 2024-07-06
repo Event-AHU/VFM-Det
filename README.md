@@ -34,9 +34,10 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 
 ### Framework 
 
-<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/vehiclemae_det.jpg" width="600">
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/VehicleMAE_Det.jpg" width="600">
 
 ### Environment Configuration 
+
 
 
 ### Model Training and Testing 
@@ -45,8 +46,8 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 ### Experimental Results 
 
 
-### Datasets and Checkpoints Download 
 
+### Datasets and Checkpoints Download 
 
 
 
