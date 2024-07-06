@@ -199,10 +199,10 @@ if __name__ == "__main__":
     parser.add_argument('--device', default='cuda', help='device')
 
     # 检测目标类别数(不包含背景)
-    parser.add_argument('--num-classes', type=int, default=90, help='number of classes')
+    parser.add_argument('--num-classes', type=int, default=4, help='number of classes')
 
     # 数据集的根目录
-    parser.add_argument('--data-path', default='/data/coco2017', help='dataset root')
+    parser.add_argument('--data-path', default='/data/wuwentao/data/cityscapes/leftImg8bit/', help='dataset root')
 
     # 训练好的权重文件
     parser.add_argument('--weights-path', default='./save_weights/model_25.pth', type=str, help='training weights')
