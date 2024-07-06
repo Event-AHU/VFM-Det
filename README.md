@@ -46,6 +46,14 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 ### Experimental Results 
 
 
+### Visual Results 
+
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/detection_result.jpg" width="600">
+
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attentionmaps.jpg" width="600">
+
+
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attribute.jpg" width="600">
 
 ### Datasets and Checkpoints Download 
 
