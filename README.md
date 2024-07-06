@@ -34,7 +34,7 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 
 ### Framework 
 
-<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/VehicleMAE_Det.jpg" width="600">
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/VehicleMAE_Det.jpg" width="800">
 
 ### Environment Configuration 
 
@@ -48,12 +48,12 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 
 ### Visual Results 
 
-<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/detection_result.jpg" width="600">
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/detection_result.jpg" width="800">
 
-<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attentionmaps.jpg" width="600">
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attentionmaps.jpg" width="800">
 
 
-<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attribute.jpg" width="600">
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attribute.jpg" width="800">
 
 ### Datasets and Checkpoints Download 
 
