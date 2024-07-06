@@ -38,7 +38,7 @@ Existing vehicle detectors are usually obtained by training a typical detector (
 
 ### Environment Configuration 
 
-
+Configure the environment according to the content of the requirements.txt file.
 
 ### Model Training and Testing 
 
