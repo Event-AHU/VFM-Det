@@ -44,8 +44,8 @@ Configure the environment according to the content of the requirements.txt file.
 
 #If you training VFM-Det using a single GPU, please run.
 CUDA_VISIBLE_DEVICES=0 python train.py
-
-
+#If you testing VFM-Det, please run.
+CUDA_VISIBLE_DEVICES=0 python validation.py
 
 ### Experimental Results 
 
