@@ -54,6 +54,8 @@ CUDA_VISIBLE_DEVICES=0 python validation.py
 
 ### Experimental Results 
 
+<img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/experimentalresults.jpg" width="800">
+
 
 ### Visual Results 
 
