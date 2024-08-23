@@ -26,6 +26,8 @@
 
 
 ### News 
+* [2024.08.23] The source code is released.
+
 
 
 ### Abastract 
@@ -62,8 +64,9 @@ CUDA_VISIBLE_DEVICES=0 python validation.py
 
 <img src="https://github.com/Event-AHU/VFM-Det/blob/main/figures/proposal_attribute.jpg" width="800">
 
-### Datasets and Checkpoints Download 
 
+### Datasets and Checkpoints Download 
+To be updated! 
 
 
 ### License 
@@ -72,6 +75,8 @@ CUDA_VISIBLE_DEVICES=0 python validation.py
 
 ### :cupid: Acknowledgement 
 * Thanks for the *** library for a quickly implement.
+
+
 
 ### :newspaper: Citation 
 ```bibtex
