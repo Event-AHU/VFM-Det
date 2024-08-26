@@ -81,8 +81,17 @@ To be updated!
 
 
 ### :newspaper: Citation 
+If you find this work helps your research, please cite the following work and give us a **star**. Any questions you have, please leave an issue. 
+
 ```bibtex
-@article{,
+@misc{wu2024VFMDet,
+      title={VFM-Det: Towards High-Performance Vehicle Detection via Large Foundation Models}, 
+      author={Wentao Wu and Fanghua Hong and Xiao Wang and Chenglong Li and Jin Tang},
+      year={2024},
+      eprint={2408.13031},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.13031}, 
 }
 ```
 
