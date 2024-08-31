@@ -68,7 +68,18 @@ CUDA_VISIBLE_DEVICES=0 python validation.py
 
 
 ### Datasets and Checkpoints Download 
-To be updated! 
+Datasets
+
+Cityscapes dataset download address：https://www.cityscapes-dataset.com/
+
+
+COCO2017 dataset download address：
+http://images.cocodataset.org/zips/train2017.zip
+http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+http://images.cocodataset.org/zips/val2017.zip
+http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip
+http://images.cocodataset.org/zips/test2017.zip
+http://images.cocodataset.org/annotations/image_info_test2017.zip
 
 
 ### License 
