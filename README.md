@@ -87,7 +87,7 @@ http://images.cocodataset.org/annotations/image_info_test2017.zip
 
 
 ### :cupid: Acknowledgement 
-* Thanks for the *** library for a quickly implement.
+* Thanks for the [WZMIAOMIAO](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing) library for a quickly implement.
 
 
 
