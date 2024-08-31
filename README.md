@@ -81,6 +81,8 @@ http://images.cocodataset.org/annotations/stuff_annotations_trainval2017.zip
 http://images.cocodataset.org/zips/test2017.zip
 http://images.cocodataset.org/annotations/image_info_test2017.zip
 
+UA-DETRAC dataset download address：https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab
+
 
 ### License 
 
