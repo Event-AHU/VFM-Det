@@ -85,7 +85,7 @@ UA-DETRAC dataset download address：https://www.albany.edu/cnse/research/comput
 
 Checkpoints 
 
-Pre-trained checkpoint  | [download](https://pan.baidu.com/s/10ZQqm7RQAzdBIYsF7dZ0DQ?pwd=fzs2)
+checkpoint  | [download](https://pan.baidu.com/s/10ZQqm7RQAzdBIYsF7dZ0DQ?pwd=fzs2)
 Extracted code |fzs2
 
 
