@@ -14,7 +14,7 @@ import transforms
 from backbone import resnet50_fpn_backbone
 from network_files import MaskRCNN
 from my_dataset_coco import CocoDetection
-from my_dataset_voc import VOCInstances
+from my_dataset_cityscraps import CityscrapesDetection
 from train_utils import EvalCOCOMetric
 
 
@@ -140,7 +140,7 @@ def main(parser_data):
     print('Using %g dataloader workers' % nw)
 
     # load validation data set
-    val_dataset = CocoDetection(data_root, "val", data_transform["val"])
+    val_dataset = CityscrapesDetection(data_root, "val", data_transform["val"])
     # VOCdevkit -> VOC2012 -> ImageSets -> Main -> val.txt
     # val_dataset = VOCInstances(data_root, year="2012", txt_name="val.txt", transforms=data_transform["val"])
     val_dataset_loader = torch.utils.data.DataLoader(val_dataset,
