@@ -83,6 +83,11 @@ http://images.cocodataset.org/annotations/image_info_test2017.zip
 
 UA-DETRAC dataset download address：https://www.albany.edu/cnse/research/computer-vision-machine-learning-lab
 
+Checkpoints 
+
+Pre-trained checkpoint  | [download](https://pan.baidu.com/s/10ZQqm7RQAzdBIYsF7dZ0DQ?pwd=fzs2)
+Extracted code |fzs2
+
 
 ### License 
 
