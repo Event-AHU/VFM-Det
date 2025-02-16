@@ -205,7 +205,7 @@ class RoIHeads(torch.nn.Module):
         self.VehiclemaeEncode = VehiclemaeEncode()
         self.VTBClassifier = VTBClassifier(47)
         self.new_features_out = nn.Linear(768, 256,bias=True)
-        self.att_features_out = nn.Linear(512, 768,bias=True)
+        #self.att_features_out = nn.Linear(512, 768,bias=True)
 
         self.box_features_out_1 = nn.Linear(256, 1,bias=True)
 
@@ -609,7 +609,7 @@ class RoIHeads(torch.nn.Module):
         box_features_new = torch.reshape(box_features,(box_features.shape[0], box_features.shape[1],box_features.shape[2]*box_features.shape[3]))
         box_features_new = box_features_new.transpose(1, 2)
         box_features_new = self.box_features_out_1(box_features_new).squeeze(2)
-        attr_vectors = self.att_features_out(attr_vectors)
+        #attr_vectors = self.att_features_out(attr_vectors)
         if self.training:
             logits,tex_feature = self.VTBClassifier(vtb_features,attr_vectors)
             logits_vec = self.proposals_attr(logits,attr_vectors)
