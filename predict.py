@@ -31,7 +31,7 @@ def time_synchronized():
 def main():
     num_classes = 4  # 不包含背景
     box_thresh = 0.5
-    weights_path = "./save_weights/model_25.pth"
+    weights_path = "./save_weights/city_checkpoint.pth"
     img_path = "./image.png"
     label_json_path = './cityscrapes4_indices.json'
 
