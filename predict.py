@@ -1,7 +1,7 @@
 import os
 import time
 import json
-
+import pickle
 import numpy as np
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -29,11 +29,16 @@ def time_synchronized():
 
 
 def main():
-    num_classes = 90  # 不包含背景
+    num_classes = 4  # 不包含背景
     box_thresh = 0.5
-    weights_path = "./save_weights/model_25.pth"
-    img_path = "./test.jpg"
-    label_json_path = './coco91_indices.json'
+    weights_path = "./save_weights/model_20.pth"
+    img_path = "./image.png"
+    label_json_path = './cityscrapes4_indices.json'
+
+    data_path = './pre_model/dataset_compcars_t5.pkl'
+    dataset_info = pickle.load(open(data_path, 'rb+'))
+    attr_vectors = dataset_info.attr_vectors.astype(np.float32)#.cuda()#.tolist()
+    attr_vectors = torch.from_numpy(attr_vectors).cuda()
 
     # get devices
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
@@ -69,10 +74,10 @@ def main():
         # init
         img_height, img_width = img.shape[-2:]
         init_img = torch.zeros((1, 3, img_height, img_width), device=device)
-        model(init_img)
+        model(init_img, attr_vectors)
 
         t_start = time_synchronized()
-        predictions = model(img.to(device))[0]
+        predictions = model(img.to(device), attr_vectors)[0]
         t_end = time_synchronized()
         print("inference+NMS time: {}".format(t_end - t_start))
 
