@@ -31,11 +31,11 @@ def time_synchronized():
 def main():
     num_classes = 4  # 不包含背景
     box_thresh = 0.5
-    weights_path = "./save_weights/model_20.pth"
+    weights_path = "./save_weights/model_25.pth"
     img_path = "./image.png"
     label_json_path = './cityscrapes4_indices.json'
 
-    data_path = './pre_model/dataset_compcars_t5.pkl'
+    data_path = './pre_model/Attribute_word_embedding_t5.pkl'
     dataset_info = pickle.load(open(data_path, 'rb+'))
     attr_vectors = dataset_info.attr_vectors.astype(np.float32)#.cuda()#.tolist()
     attr_vectors = torch.from_numpy(attr_vectors).cuda()
