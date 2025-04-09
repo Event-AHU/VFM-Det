@@ -85,9 +85,9 @@ UA-DETRAC dataset download address：https://www.albany.edu/cnse/research/comput
 
 Checkpoints 
 
-checkpoint  | [download](https://pan.baidu.com/s/1PCSo-jlnw_ntZSwDLFoCzw?pwd=hmir)
+checkpoint  | [download](https://pan.baidu.com/s/1ra1fQEsXCrruUtZsBj741g?pwd=2dyx)
 
-Extracted code |hmir
+Extracted code |2dyx
 
 
 ### License 
